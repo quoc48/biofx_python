@@ -7,4 +7,5 @@ def generate_trimers():
                 result.append(base1 + base2 + base3)
     return result
 
-print(generate_trimers())
+for str in generate_trimers():
+    print(f"\n{str}")
